@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RemoteUrl: https://sp-universe.com/lunasnail-studios/multiplayer-test/versions/
-  LauncherExecutableName: Multiplayer-Test-Launcher.exe
+  LauncherExecutableName: Multiplayer-Test.exe
   GameExecutableName: Multiplayer-Test.exe
   LaunchAnywayOnError: 1
   Dispatcher: {fileID: 1744635116}

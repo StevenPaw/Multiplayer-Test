@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RemoteUrl: https://sp-universe.com/lunasnail-studios/multiplayer-test/versions/
-  LauncherExecutableName: Multiplayer-Test-Launcher.exe
+  LauncherExecutableName: Multiplayer-Test.exe
   GameExecutableName: Multiplayer-Test.exe
   LaunchAnywayOnError: 1
   Dispatcher: {fileID: 1654408391}
@@ -1348,7 +1348,7 @@ PrefabInstance:
     - target: {fileID: 6893855098912965455, guid: c986e1974f10e59479942a8a386ba786,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -14.875916
+      value: -14.8758545
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c986e1974f10e59479942a8a386ba786, type: 3}

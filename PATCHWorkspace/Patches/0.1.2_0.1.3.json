@@ -1,0 +1,197 @@
+{
+  "From": "0.1.2",
+  "To": "0.1.3",
+  "Hash": "9OuQOuzhATYzGBh6KCL5dBrJ1sE",
+  "TotalSize": 58904,
+  "Entries": [
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/globalgamemanagers",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:06.7511135Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/level0",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:04.7404752Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/level1",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:04.9111705Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/sharedassets1.assets",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:06.9729348Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Assembly-CSharp.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:02.8331114Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Cinemachine.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:57.4339519Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/kcp2k.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:55.4678265Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Authenticators.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:59.8480528Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Cloud.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:57.8382154Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Components.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:00.2543959Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:57.405031Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Examples.Cloud.GUI.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:00.650246Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Examples.Cloud.Pong.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:02.2360132Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Examples.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:01.3099561Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/SimpleWebTransport.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:57.9239847Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Telepathy.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:55.528666Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.Animation.Runtime.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:00.7090884Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.Animation.Triangle.Runtime.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:55.3660771Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.Common.Runtime.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:57.0412989Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.PixelPerfect.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:55.9206643Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.SpriteShape.Runtime.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:00.8012302Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.InternalAPIEngineBridge.001.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:55.9864883Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.Mathematics.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:58.1080107Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.TextMeshPro.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:56.5624773Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.Timeline.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:55.6892636Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UI.dll",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:29:54.2419465Z",
+      "Size": 0
+    },
+    {
+      "Operation": 2,
+      "RelativePath": "version.data",
+      "Attributes": 32,
+      "LastWriting": "2021-03-02T23:30:25.7802913Z",
+      "Size": 0
+    }
+  ]
+}

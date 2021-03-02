@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MHLab/Patch/Launcher/Scenes/Launcher.unity
     guid: 62bbf456ac1f00d47a1374cb8f720350
-  - enabled: 0
+  - enabled: 1
     path: Assets/MHLab/Patch/Launcher/Scenes/PreGame.unity
     guid: 98697cd740c1eb148b123f3c1128479b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
