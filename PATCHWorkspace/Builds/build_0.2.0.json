@@ -1,0 +1,1152 @@
+{
+  "Entries": [
+    {
+      "RelativePath": "Multiplayer-Test.exe",
+      "Size": 650752,
+      "LastWriting": "2020-09-22T13:45:32Z",
+      "Hash": "T64brK2XOvEf4QMY4G+mT+6cA4k",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "UnityCrashHandler64.exe",
+      "Size": 1094600,
+      "LastWriting": "2020-09-22T13:46:36Z",
+      "Hash": "IU0P0EJ7WzRboGRdaxym+hSMyQU",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "UnityPlayer.dll",
+      "Size": 25915336,
+      "LastWriting": "2020-09-22T13:46:32Z",
+      "Hash": "PgXmWZpjVGjx9dOmdeq7YpXJv8o",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "Size": 4962248,
+      "LastWriting": "2020-09-22T13:46:34Z",
+      "Hash": "RuwvkZR/xRgUxquAPsnvSBpE1Ec",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "Size": 780288,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "cqlbcBykdyTCcenqcv5gJ8K0Wbg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/browscap.ini",
+      "Size": 311984,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "LVRU4WHeiltlkQ8nvXDZ0K2PpHY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/config",
+      "Size": 3276,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "xEg15Igdlal7WXvr/13roCM6WIc",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "Size": 60575,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "s+S1CKqzzyAcBoknE7Q92wxDt64",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "Size": 29116,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "2NtxEfzloI2LfJpuHgrS+/NM/hI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "Size": 2622,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "3Svi28zTRzZxkwGu6SQp1CWOpaA",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/2.0/web.config",
+      "Size": 11686,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "pNfgVRb2PWq2cyeymdT7KFLLhAs",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "Size": 1605,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "GH3/UW+USOY+pQeBkLM0eSLEs+s",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "Size": 60575,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "s+S1CKqzzyAcBoknE7Q92wxDt64",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "Size": 33648,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "kkW+/NEWRY6WGWlPGnhcUPphtY4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "Size": 2622,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "jhfirsQjqOb7Q+jL5iFQQCF7uKM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.0/web.config",
+      "Size": 18848,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "fXdtcwy9JTVkcT82Vz3YNmeCeIw",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "Size": 1605,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "GH3/UW+USOY+pQeBkLM0eSLEs+s",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "Size": 60575,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "s+S1CKqzzyAcBoknE7Q92wxDt64",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "Size": 34106,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "HhGPS1wcansYWOP8yxsdEJVWGXY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "Size": 2622,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "jhfirsQjqOb7Q+jL5iFQQCF7uKM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.5/web.config",
+      "Size": 18857,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "6j4q1tcdSDxUsShS3L3NC6pWmYg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "Size": 1605,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "GH3/UW+USOY+pQeBkLM0eSLEs+s",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "Size": 25817,
+      "LastWriting": "2020-09-22T13:40:48Z",
+      "Hash": "k2Ug1btcAKGYXXpMTw73Y6kDGGI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/app.info",
+      "Size": 31,
+      "LastWriting": "2021-03-03T01:41:32.0935163Z",
+      "Hash": "gb/0YwUv+9rxmp6SgQQdc7RER+E",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/boot.config",
+      "Size": 62,
+      "LastWriting": "2021-03-03T01:41:31.9643683Z",
+      "Hash": "lXQTsy9AIh9YHg/FoVgq1CnF3qQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/globalgamemanagers",
+      "Size": 67900,
+      "LastWriting": "2021-03-03T01:40:53.9405239Z",
+      "Hash": "BCdJRL1cbpbZUd8NDB0Cja1U0Xo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/globalgamemanagers.assets",
+      "Size": 118156,
+      "LastWriting": "2021-03-03T01:40:54.0865156Z",
+      "Hash": "+zPZPhqZSXqAUnIXqxTr30+18pY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/level0",
+      "Size": 16872,
+      "LastWriting": "2021-03-03T01:40:51.9874966Z",
+      "Hash": "Sg3F5KDhPT3EddGSNQDassxNElc",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/level1",
+      "Size": 10512,
+      "LastWriting": "2021-03-03T01:40:52.1834032Z",
+      "Hash": "/jiDxYYwmRt/uhyR8pomh9gFylA",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/resources.assets",
+      "Size": 81160,
+      "LastWriting": "2021-03-03T01:40:54.1205351Z",
+      "Hash": "vL+fdWyfFW/JCZfWsvFlcgWGkFo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/resources.assets.resS",
+      "Size": 13435736,
+      "LastWriting": "2021-03-03T01:40:54.1205351Z",
+      "Hash": "i5eISgDA7ea7TVRSqmqq/TD/mYU",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/sharedassets0.assets",
+      "Size": 18100,
+      "LastWriting": "2021-03-03T01:40:54.1354861Z",
+      "Hash": "4STX8JVYt0R4NxVbb5zPl2p6Ch8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/sharedassets0.assets.resS",
+      "Size": 174816,
+      "LastWriting": "2021-03-03T01:40:54.1354861Z",
+      "Hash": "uUh1l1ZcMjZcxM/9BDmwVeifhXY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/sharedassets1.assets",
+      "Size": 2595296,
+      "LastWriting": "2021-03-03T01:41:31.8604547Z",
+      "Hash": "5LlJ4itwd1LR1jHKXaPZ7rx26fk",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/sharedassets1.assets.resS",
+      "Size": 1398128,
+      "LastWriting": "2021-03-03T01:41:31.8604547Z",
+      "Hash": "eKhzv76WYiYBbztQKz1hdHI5yvU",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Assembly-CSharp.dll",
+      "Size": 47104,
+      "LastWriting": "2021-03-03T01:40:50.1914663Z",
+      "Hash": "ZckwPsP+awVoZdOclPniEzTrR8c",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Cinemachine.dll",
+      "Size": 184832,
+      "LastWriting": "2021-03-03T01:40:44.6507507Z",
+      "Hash": "B9Upf6WUlqNomlHUb+mZtXSbaFw",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/HardLight2D.dll",
+      "Size": 28672,
+      "LastWriting": "2020-12-04T08:39:32Z",
+      "Hash": "fcP31iwDILRhJreewXQITJj6p5Y",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/ICSharpCode.SharpZipLib.dll",
+      "Size": 198144,
+      "LastWriting": "2021-01-26T16:14:41Z",
+      "Hash": "/hIbV26s5R5reLt4bLZQDccCBnI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/kcp2k.dll",
+      "Size": 28672,
+      "LastWriting": "2021-03-03T01:40:42.7208568Z",
+      "Hash": "Leb+A8EbzZ0EnFLYoxwDjadiZIY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/MHLab.Patch.Core.Admin.dll",
+      "Size": 24576,
+      "LastWriting": "2021-01-26T16:14:24Z",
+      "Hash": "Dj07JriizB6Z4gnIkVzmG50Ycyg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/MHLab.Patch.Core.Client.dll",
+      "Size": 48128,
+      "LastWriting": "2021-01-26T16:14:41Z",
+      "Hash": "38KBmS1gquVnTItRBkxKEqkWNBA",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/MHLab.Patch.Core.dll",
+      "Size": 43520,
+      "LastWriting": "2021-01-26T16:14:25Z",
+      "Hash": "5lzZsvJGXsaOdmbpe6s6Kanxy8k",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Authenticators.dll",
+      "Size": 20992,
+      "LastWriting": "2021-03-03T01:40:46.6674807Z",
+      "Hash": "7+w3Yv7oJpZHas9Hx+CrWUMr9Vo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Cloud.dll",
+      "Size": 20992,
+      "LastWriting": "2021-03-03T01:40:45.5993644Z",
+      "Hash": "UEvv8UIfEj3xXVBUvAgGS5NatWI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Components.dll",
+      "Size": 92672,
+      "LastWriting": "2021-03-03T01:40:47.0525456Z",
+      "Hash": "qkIJw1RwVDavN1rkR1QFesR9LfI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.dll",
+      "Size": 158720,
+      "LastWriting": "2021-03-03T01:40:44.67195Z",
+      "Hash": "doOWT0Yf/Mwf6G+V0ZDZ+qa3E8w",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Examples.Cloud.GUI.dll",
+      "Size": 11264,
+      "LastWriting": "2021-03-03T01:40:47.8983357Z",
+      "Hash": "AipaA0nAtLuV+2xEav0ti38R4o4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Examples.Cloud.Pong.dll",
+      "Size": 17408,
+      "LastWriting": "2021-03-03T01:40:49.5375535Z",
+      "Hash": "CE4sKkn3ls12cgJoZ5G4kGzUebk",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mirror.Examples.dll",
+      "Size": 79360,
+      "LastWriting": "2021-03-03T01:40:49.0145236Z",
+      "Hash": "qaY1dqcxzFjRLMYCz9W2RRQr1bs",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Mono.Security.dll",
+      "Size": 310272,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "6UAFjP9dxYTBHcbksRHoWj9soG4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/mscorlib.dll",
+      "Size": 3905024,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "g/3Eyh5pM9RxTFCy8OXW1lo2Jt8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/netstandard.dll",
+      "Size": 84992,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "fIAi//MKRboElA67fvkkqRRgVuM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Newtonsoft.Json.dll",
+      "Size": 693680,
+      "LastWriting": "2021-01-26T16:14:24Z",
+      "Hash": "34P8s2OVlq1C1b6DFO+dZyB5GYs",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Serilog.dll",
+      "Size": 126464,
+      "LastWriting": "2021-01-26T16:14:27Z",
+      "Hash": "xEr4bDjiKNlFnmiBRH+QVeG8Sm8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Serilog.Sinks.File.dll",
+      "Size": 29184,
+      "LastWriting": "2021-01-26T16:14:11Z",
+      "Hash": "T4sHu9j+KqzLeG/iZE3ZapBpTug",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/SimpleWebTransport.dll",
+      "Size": 38400,
+      "LastWriting": "2021-03-03T01:40:45.6617644Z",
+      "Hash": "NG2D8v6q7A08LrYVO/EfXr8RBXg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Collections.dll",
+      "Size": 5120,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "rZAqxFblE9xJe3XM10TFtlY7J5A",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.ComponentModel.Composition.dll",
+      "Size": 247808,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "SCDsSnVY4Yqh6hUdIs8ZILgrI6c",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Configuration.dll",
+      "Size": 43008,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "J/gzzRpkIYb7d0MbINba1/8MX+E",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Core.dll",
+      "Size": 1057792,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "ysgRMu+KdswL7pnfpf/CCWwCuEg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Data.dll",
+      "Size": 1941504,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "WZa1x4JjGi5/J29fZggJxCGBCRY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Diagnostics.StackTrace.dll",
+      "Size": 6656,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "bFzumljc9JP5TfJ7feF/Gb3wIeM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.dll",
+      "Size": 2141696,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "v46XgqiPfhdR0duHGeOy0NPn+/w",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Drawing.dll",
+      "Size": 184320,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "mpWFXd8BZjjnLDu6h0mCOWn82ec",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.EnterpriseServices.dll",
+      "Size": 33280,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "L7DE9kt/vI90gV2ajPppDLV9to8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Globalization.dll",
+      "Size": 5120,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "FIcY44whPeQN7jXhTwqwOAYD9do",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Globalization.Extensions.dll",
+      "Size": 6144,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "RL/x8ksjX3QvhOTxUukS+gRS7J8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.IO.Compression.dll",
+      "Size": 98816,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "w647zVyNmvd8xXnh0zX4z20qJBU",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "Size": 23040,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "uAl5lJuBfSav4KiosDWPcE7OgrI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.IO.dll",
+      "Size": 4608,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "w3oZqyrcI/Q5WtXqwqGM9aX93ss",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.IO.FileSystem.dll",
+      "Size": 4608,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "8e8Ty10jKFY4HRP2uOLpXb39pr4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.IO.FileSystem.Primitives.dll",
+      "Size": 4608,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "dGs5pwo7hb9x9XMKbUrwr1PHG7c",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Linq.dll",
+      "Size": 4096,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "fOOc0z949HT40uwPEFj80aa53Zg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Net.Http.dll",
+      "Size": 114688,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "lXQBIQ08nhhvFx+S3ssatMhY8Lc",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Numerics.dll",
+      "Size": 114176,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "4nHOnv5OFAqKVIkgKZK/gPv0WYY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Runtime.dll",
+      "Size": 12800,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "GcDI1G7JMReQ/preT9hV23f2YJ0",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Runtime.Extensions.dll",
+      "Size": 5120,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "6Vu52HnCK5DS31MSQ1aVWhSlfrw",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Runtime.Serialization.dll",
+      "Size": 840704,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "PjiaN5ZWtXhrYByOzQpJ8Rmlyso",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Runtime.Serialization.Xml.dll",
+      "Size": 7168,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "0srTtegP4BBWYTsNlCwXfMbQzKE",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.ServiceModel.Internals.dll",
+      "Size": 218112,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "nv/tWv+kx1ZtRdn8QDE9E2msOeA",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Text.Encoding.dll",
+      "Size": 5120,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "fAZdT1nGMvltlI20wcZWAIJnRts",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Text.Encoding.Extensions.dll",
+      "Size": 4608,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "J62P5HyNTQJ1DYYDo+GhjQ4v7cI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Text.RegularExpressions.dll",
+      "Size": 4608,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "w7X6yHU5cuaKwyuFzETKi1iWbDA",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Threading.dll",
+      "Size": 5632,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "/9s6bx8kULltAQLCwI+++GQYp4Y",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Threading.Timer.dll",
+      "Size": 4608,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "sS2p37wTX93Erpmu6M1iyOCW2aM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Transactions.dll",
+      "Size": 33280,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "zhCHMvnuRMGOZDTIhrzXXhEum70",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Xml.dll",
+      "Size": 2414592,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "5iVBjwZTpyBw4GqkZG/9z+Beax4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Xml.Linq.dll",
+      "Size": 119296,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "J9mvsx21T69xo6eAJfcD5hBDubg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/System.Xml.XPath.XDocument.dll",
+      "Size": 5120,
+      "LastWriting": "2020-09-22T13:15:10Z",
+      "Hash": "0wN2Wbb5ERsTKBQWJfmarwrzX5Y",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Telepathy.dll",
+      "Size": 18944,
+      "LastWriting": "2021-03-03T01:40:42.8138455Z",
+      "Hash": "2g9JMkwWr26/agRCfm6pheZDcVg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.Animation.Runtime.dll",
+      "Size": 33280,
+      "LastWriting": "2021-03-03T01:40:46.5374612Z",
+      "Hash": "QW5sfcqv8UHaj1mHAgWtu69QQwo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.Animation.Triangle.Runtime.dll",
+      "Size": 187392,
+      "LastWriting": "2021-03-03T01:40:42.962817Z",
+      "Hash": "LUCD1WVNgLrNLWaWau2KYMaPadU",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.Common.Runtime.dll",
+      "Size": 3584,
+      "LastWriting": "2021-03-03T01:40:44.4061141Z",
+      "Hash": "/rxAbQ3dk0dZIJLD6y4oCFU/D3s",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.PixelPerfect.dll",
+      "Size": 11264,
+      "LastWriting": "2021-03-03T01:40:42.6447948Z",
+      "Hash": "Cyx372/f6Zi2pSwcFyO4+1o5+cE",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.2D.SpriteShape.Runtime.dll",
+      "Size": 87552,
+      "LastWriting": "2021-03-03T01:40:46.6234288Z",
+      "Hash": "3OEnQV7qVgQBm9XuCy6bFQXa6dI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.InternalAPIEngineBridge.001.dll",
+      "Size": 4096,
+      "LastWriting": "2021-03-03T01:40:43.3403097Z",
+      "Hash": "aJjNfUjvqhyuteFiI+dzP5Ign08",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.Mathematics.dll",
+      "Size": 710144,
+      "LastWriting": "2021-03-03T01:40:45.4243672Z",
+      "Hash": "rtkU16quXJ/HS+ut3RxpqZgThS8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.TextMeshPro.dll",
+      "Size": 368128,
+      "LastWriting": "2021-03-03T01:40:43.7677339Z",
+      "Hash": "biroEDSkgsRyw/TFIkOs4uN7R54",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/Unity.Timeline.dll",
+      "Size": 108544,
+      "LastWriting": "2021-03-03T01:40:43.0477985Z",
+      "Hash": "dxCWlwB+MYgBFjUeEsWoqHmtIwQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "Size": 12288,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "kTnFmL/l1rapx3FyMx9TmNhDHoQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.AIModule.dll",
+      "Size": 44544,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "b7xp78A9Tpmtj47pErigtLk45PI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "Size": 57344,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "XpTalA2bUIITy5rZ0m4dbu8EZ5c",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.AnimationModule.dll",
+      "Size": 145408,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "7Se+3ocDrR8WJ1uzzwc1YP/t/hM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ARModule.dll",
+      "Size": 12800,
+      "LastWriting": "2020-09-22T13:45:58Z",
+      "Hash": "JTQa1ecQV6T0aPQ53fWEUJZgjKM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "Size": 20992,
+      "LastWriting": "2020-09-22T13:45:42Z",
+      "Hash": "5uuUg9cW16tQ0JgDnz+NI82pO2E",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.AudioModule.dll",
+      "Size": 57344,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "9XR+ua3OWMe8idi9Jw1wBKRSrXo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ClothModule.dll",
+      "Size": 15360,
+      "LastWriting": "2020-09-22T13:45:48Z",
+      "Hash": "Lg26e9J8aihGT25z3iEpcBpsUMY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "Size": 10240,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "s1UozfqW5sMKKT9AYs86djaE+as",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "Size": 9216,
+      "LastWriting": "2020-09-22T13:45:42Z",
+      "Hash": "znpaQTGwicBGybvwQdPOUa3bt08",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.CoreModule.dll",
+      "Size": 1005056,
+      "LastWriting": "2020-09-22T13:45:36Z",
+      "Hash": "jiY3Ep02MIlsEz9lj9NuoQjEIZw",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "Size": 9728,
+      "LastWriting": "2020-09-22T13:46:04Z",
+      "Hash": "cO+PntZSsueQem8nVF9zZNTd0Dk",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.DirectorModule.dll",
+      "Size": 13312,
+      "LastWriting": "2020-09-22T13:45:44Z",
+      "Hash": "pUlIgY5yFJZKMHEWqv23Y3d+khI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.dll",
+      "Size": 84992,
+      "LastWriting": "2020-09-22T13:46:06Z",
+      "Hash": "L9tGc6pgaKTMt3tgP94WuUyFnQk",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "Size": 17920,
+      "LastWriting": "2020-09-22T13:45:42Z",
+      "Hash": "N5C433WWOPNzBTrFnUIxA0TwcLo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "Size": 27136,
+      "LastWriting": "2020-09-22T13:45:42Z",
+      "Hash": "bYWpnNMyVgA03wMLMHXsS5xVouM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.GridModule.dll",
+      "Size": 13824,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "ywLi/USqKFmnoqSIcHmwxWTAPp4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "Size": 8704,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "TuHVohMSrZAsVJjj1gLFa/sMLLg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "Size": 12800,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "OjnxZ6IZTGLoeS4bmDNq5fq+rBM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "Size": 156160,
+      "LastWriting": "2020-09-22T13:45:50Z",
+      "Hash": "ZFwlpKvsFH2XQj9IKQdbuDK8TmI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "Size": 25600,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "3uS+sSkiYN/T4t+bWcO4DvCqMKI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.InputModule.dll",
+      "Size": 12288,
+      "LastWriting": "2020-09-22T13:45:44Z",
+      "Hash": "8ddd2KcosidssEaWmVEY3RrzMMQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "Size": 10752,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "XsitWJZQIRhz/mHd+1QU7t9pTxY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "Size": 9728,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "eF/0FRX7BqSl+GRt18yzwkDS1AI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "Size": 134656,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "BvC+z0MTrwXDe8Ggg8OgfX1s0BI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "Size": 9216,
+      "LastWriting": "2020-09-22T13:46:04Z",
+      "Hash": "iUg6n+rPvabRNjzR/j5ulcpryuY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "Size": 105984,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "j9Q1+JFod0Ldc6aX7uM8cljXtOg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "Size": 87040,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "SkxocRqN89MdM4IC9bsNUUQqgD8",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "Size": 8704,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "NeBXDV3ch6F2oICSzqhStGQc8j0",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "Size": 9728,
+      "LastWriting": "2020-09-22T13:45:42Z",
+      "Hash": "ZOgz9BE109D/bY8b1ec1Ufc5t78",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "Size": 19456,
+      "LastWriting": "2020-09-22T13:40:52Z",
+      "Hash": "lLhpQTSK1ZXPwUNwKJ5PLMzOV4k",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "Size": 10240,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "8GKUX6g/B5V2ctHiFBKEzjruY8k",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "Size": 13824,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "cogA5yZVLngOImtWaU2rzWWaJl4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.StreamingModule.dll",
+      "Size": 9216,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "x8lt3xRSnrKEk7zf3ZKH/rrsM8s",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "Size": 13312,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "XEGsT612LZczZFzYq9MAmUYKgzw",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "Size": 16896,
+      "LastWriting": "2020-09-22T13:45:44Z",
+      "Hash": "l9r5AvB3kfYrPhyYKpANoBs7eTs",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.TerrainModule.dll",
+      "Size": 80384,
+      "LastWriting": "2020-09-22T13:45:40Z",
+      "Hash": "fiiJ9D7Y1/k6HXjZZi4OEoh7HaI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "Size": 9728,
+      "LastWriting": "2020-09-22T13:45:52Z",
+      "Hash": "0ZfA+ynbQPRiQjy4YpQDqdJCx+c",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.TextCoreModule.dll",
+      "Size": 183808,
+      "LastWriting": "2020-09-22T13:45:50Z",
+      "Hash": "y4BKjC/zaBw/zlJAhxnTL3nX3XE",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "Size": 27648,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "I1IivdU7tAzDVR/rxzhjz8+5Kdo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.TilemapModule.dll",
+      "Size": 25088,
+      "LastWriting": "2020-09-22T13:45:48Z",
+      "Hash": "+0E0NS2BFbLCUmNWu5Y4ouPDnAA",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.TLSModule.dll",
+      "Size": 8704,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "2Laay9a17TK07dfJE/HOOZfsYAM",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UI.dll",
+      "Size": 224768,
+      "LastWriting": "2021-03-03T01:40:41.6594888Z",
+      "Hash": "CBHo4kMCvpA37aOxn17Omc1GBKg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "Size": 726016,
+      "LastWriting": "2020-09-22T13:46:02Z",
+      "Hash": "Cm7QPp5q67MRVvPchv1g52ByysU",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UIModule.dll",
+      "Size": 22528,
+      "LastWriting": "2020-09-22T13:45:48Z",
+      "Hash": "FZJHfUOS5hciWS6i84JBTHVcSyY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UmbraModule.dll",
+      "Size": 8704,
+      "LastWriting": "2020-09-22T13:45:38Z",
+      "Hash": "lmrNKdqTgJSNQInTftS35O7hyDQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UNETModule.dll",
+      "Size": 77312,
+      "LastWriting": "2020-09-22T13:45:58Z",
+      "Hash": "CxnriBv5nqZcGto5p8qK7M/Uv3c",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "Size": 32768,
+      "LastWriting": "2020-09-22T13:45:58Z",
+      "Hash": "49/82HlgfWBH229plxN21+2izR0",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "Size": 10752,
+      "LastWriting": "2020-09-22T13:45:40Z",
+      "Hash": "CBKxi0vKOFtKj/i3d25vy3TrHVY",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "Size": 8704,
+      "LastWriting": "2020-09-22T13:45:44Z",
+      "Hash": "XY7TIaM10cORfETGMrKUBk1rZBQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "Size": 11776,
+      "LastWriting": "2020-09-22T13:46:00Z",
+      "Hash": "wW6Lt4hPqIOmwFNdsglWLqz/8bg",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "Size": 11264,
+      "LastWriting": "2020-09-22T13:45:58Z",
+      "Hash": "y7SZwzIYq3iwVVhZ6G3PMKSxcbI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "Size": 43008,
+      "LastWriting": "2020-09-22T13:45:48Z",
+      "Hash": "mNsyPNFIIHCNQAf5LIZS7P7aZfo",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "Size": 10752,
+      "LastWriting": "2020-09-22T13:45:58Z",
+      "Hash": "bhI8TeP/4Qyeg1x88TUcgK/C0+4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "Size": 19968,
+      "LastWriting": "2020-09-22T13:46:04Z",
+      "Hash": "r4Sur0UIki4+s3QDt2yCTMDhC8w",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "Size": 12288,
+      "LastWriting": "2020-09-22T13:45:48Z",
+      "Hash": "lpRxRrd2zK4oFCQOudtZN6CyIps",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.VFXModule.dll",
+      "Size": 38400,
+      "LastWriting": "2020-09-22T13:45:40Z",
+      "Hash": "/O/HSP6TJx6Sl91XJYFSWIWFyxQ",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.VideoModule.dll",
+      "Size": 28672,
+      "LastWriting": "2020-09-22T13:46:00Z",
+      "Hash": "9sil2aVuWhpJePThmUgHXTbTm6E",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.VRModule.dll",
+      "Size": 34816,
+      "LastWriting": "2020-09-22T13:46:04Z",
+      "Hash": "FtguYxVtzr47S4W5VvlBOvo1kuk",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.WindModule.dll",
+      "Size": 9728,
+      "LastWriting": "2020-09-22T13:45:40Z",
+      "Hash": "DILgi+drzxtfj9OgMeUxl5RQlPw",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Managed/UnityEngine.XRModule.dll",
+      "Size": 53760,
+      "LastWriting": "2020-09-22T13:45:58Z",
+      "Hash": "ULZjJqe8peCJQvYeeAlvNgFzSh4",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Resources/unity default resources",
+      "Size": 3837396,
+      "LastWriting": "2020-09-22T13:40:50Z",
+      "Hash": "HPYldk3sjSh97Oxf7Dbddy/8MiI",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "Multiplayer-Test_Data/Resources/unity_builtin_extra",
+      "Size": 339776,
+      "LastWriting": "2021-03-03T01:41:31.9603519Z",
+      "Hash": "IrEBmVqPeXBpt2YhYPvsqrAeW48",
+      "Attributes": 8224
+    },
+    {
+      "RelativePath": "version.data",
+      "Size": 24,
+      "LastWriting": "2021-03-03T01:42:10.4175273Z",
+      "Hash": "ywrvN0xtF8hkatYiuwLuAyN5lM8",
+      "Attributes": 32
+    }
+  ]
+}
