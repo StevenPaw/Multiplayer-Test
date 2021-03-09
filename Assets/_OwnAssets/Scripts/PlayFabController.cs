@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.Remoting.Messaging;
 using PlayFab;
 using PlayFab.ClientModels;
-using PlayFab.PfEditor.Json;
 using UnityEngine;
-using UnityEngine.UI;
-using PlayFab.Json;
+using TMPro;
+using UnityEngine.SceneManagement;
 using JsonObject = PlayFab.Json.JsonObject;
 
 public class PlayFabController : MonoBehaviour
@@ -19,12 +17,16 @@ public class PlayFabController : MonoBehaviour
     public GameObject loggingInStatusView;
     public GameObject addLoginPanel;
     public GameObject recoverButton;
+    public GameObject loggedInViewPanel;
+    public TMP_Text welcomeUsernameText;
     public string playFabTitleID = "B2C52";
 
     [Header("LoginData")]
     [SerializeField] private string username;
+    [SerializeField] private string displayname;
     [SerializeField] private string userEmail;
     [SerializeField] private string userPassword;
+    [SerializeField] private string myID;
     [SerializeField] private bool rememberMeActive = true;
     
     private void OnEnable()
@@ -90,10 +92,30 @@ public class PlayFabController : MonoBehaviour
     
     
 
-    #region Login---------------
+    #region Login/Logout---------------
+
+    public void Logout()
+    {
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("LoginScreen"))
+        {
+            PlayFabClientAPI.ForgetAllCredentials();
+            loggedInViewPanel.SetActive(false);
+            loginPanel.SetActive(true);
+            socialLoginPanel.SetActive(true);
+            loggingInStatusView.SetActive(false);
+            PlayerPrefs.DeleteKey("EMAIL");
+            PlayerPrefs.DeleteKey("USERNAME");
+            PlayerPrefs.DeleteKey("PASSWORD");
+            Debug.Log("PLAYER HAS BEEN LOGGED OUT");
+            welcomeUsernameText.text = "...";
+        }
+    }
+    
     private void OnLoginSuccess(LoginResult result)
     {
         Debug.Log("LOGIN WAS SUCCESSFUL!!");
+        myID = result.PlayFabId;
+        GetPlayerData();
         FinishLogin();
     }
 
@@ -107,25 +129,31 @@ public class PlayFabController : MonoBehaviour
         {
             recoverButton.SetActive(true);
         }
+        myID = result.PlayFabId;
+        GetPlayerData();
+        FinishLogin();
     }
 
     private void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
         Debug.Log("REGISTRATION WAS SUCCESSFUL! Going to login");
-        
-        PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest{DisplayName = username}, OnDisplayName, OnDisplayErrorName)
-        
+
+        PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest {DisplayName = username},
+            OnDisplayName, OnDisplayNameError);
+        myID = result.PlayFabId;
+        GetPlayerData();
         FinishLogin();
     }
 
     void OnDisplayName(UpdateUserTitleDisplayNameResult result)
     {
-        Debug.Log(result.DisplayName + " is your new displayname");
+        Debug.Log(result.DisplayName + " is your displayname");
+        updateDisplayName();
     }
     
-    void OnDisplayNameError(UpdateUserTitleDisplayNameResult result)
+    void OnDisplayNameError(PlayFabError error)
     {
-        Debug.Log(result.DisplayName + " is your new displayname");
+        Debug.LogError(error.GenerateErrorReport());
     }
 
     private void OnLoginFailure(PlayFabError error)
@@ -208,11 +236,17 @@ public class PlayFabController : MonoBehaviour
     {
         Debug.Log("REGISTRATION WAS SUCCESSFUL! Going to login");
         addLoginPanel.SetActive(false);
+        
+        PlayFabClientAPI.UpdateUserTitleDisplayName(new UpdateUserTitleDisplayNameRequest {DisplayName = username},
+            OnDisplayName, OnDisplayNameError);
+        GetPlayerData();
         FinishLogin();
     }
     
     private void FinishLogin()
     {
+        updateDisplayName();
+        
         if (rememberMeActive)
         {
             PlayerPrefs.SetString("EMAIL", userEmail);
@@ -230,11 +264,12 @@ public class PlayFabController : MonoBehaviour
         socialLoginPanel.SetActive(false);
         loggingInStatusView.SetActive(false);
         recoverButton.SetActive(false);
-        
+        loggedInViewPanel.SetActive(true);
+
         GetStats();
     }
     
-    #endregion Login---------------
+    #endregion Login/Logout---------------
 
     #region PlayerStats---------------
     
@@ -333,9 +368,12 @@ public class PlayFabController : MonoBehaviour
     }
 
     #endregion PlayerStats---------------
-    
-    #region Leaderboard---------------
 
+    #region Leaderboard---------------
+    
+    public GameObject leaderBoardPanel;
+    public GameObject listingPrefab;
+    public Transform listingContainer;
     public void GetLeaderboarder()
     {
         var requestLeaderboard = new GetLeaderboardRequest
@@ -345,10 +383,24 @@ public class PlayFabController : MonoBehaviour
 
     void OnGetLeaderboard(GetLeaderboardResult result)
     {
-        Debug.Log(result.Leaderboard[0].StatValue);
+        leaderBoardPanel.SetActive(true);
+        //Debug.Log("HIGHEST SCORE: " + result.Leaderboard[0].StatValue);
         foreach (PlayerLeaderboardEntry player in result.Leaderboard)
         {
+            GameObject tempListing = Instantiate(listingPrefab, listingContainer);
+            LeaderboardListing ll = tempListing.GetComponent<LeaderboardListing>();
+            ll.playerNameText.text = player.DisplayName;
+            ll.playerScoreText.text = player.StatValue.ToString();
             Debug.Log(player.DisplayName + ": " + player.StatValue);
+        }
+    }
+
+    public void CloseLeaderboardPanel()
+    {
+        leaderBoardPanel.SetActive(false);
+        for (int i = listingContainer.childCount - 1; i >= 0; i--)
+        {
+            Destroy(listingContainer.GetChild(i).gameObject);
         }
     }
 
@@ -358,4 +410,67 @@ public class PlayFabController : MonoBehaviour
     }
     
     #endregion
+    
+    #region PlayerData---------------
+
+    public void GetPlayerData()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest()
+        {
+            PlayFabId = myID,
+            Keys = null
+        }, GetUserDataSuccess, OnErrorLeaderboard);
+    }
+
+    void GetUserDataSuccess(GetUserDataResult result)
+    {
+        if (result.Data == null || !result.Data.ContainsKey("Skins"))
+        {
+            Debug.Log("Skins not set");
+        }
+        else
+        {
+            PersistentData.PD.SkinsStringToData(result.Data["Skins"].Value);
+        }
+    }
+
+    public void SetUserData(string SkinsData)
+    {
+        PlayFabClientAPI.UpdateUserData(new UpdateUserDataRequest()
+        {
+            Data = new Dictionary<string, string>()
+            {
+                {"Skins", SkinsData}
+            }
+        }, SetDataSuccess, OnErrorLeaderboard);
+    }
+
+    void SetDataSuccess(UpdateUserDataResult result)
+    {
+        Debug.Log(result.DataVersion);
+    }
+    
+    #endregion PlayerData---------------
+    
+    #region Tools---------------
+
+    public void updateDisplayName()
+    {
+        var usernameRequest = new GetAccountInfoRequest();
+        PlayFabClientAPI.GetAccountInfo(usernameRequest,OnDisplaynameReceived,OnPlayFabError);
+    }
+
+    void OnDisplaynameReceived(GetAccountInfoResult result)
+    {
+        displayname = result.AccountInfo.TitleInfo.DisplayName;
+        welcomeUsernameText.text = displayname;
+        Debug.Log("Displayname is " + displayname);
+    }
+
+    void OnPlayFabError(PlayFabError error)
+    {
+        Debug.LogError(error.GenerateErrorReport());
+    }
+    
+    #endregion Tools---------------
 }
