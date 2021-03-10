@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using JsonObject = PlayFab.Json.JsonObject;
 
@@ -355,7 +357,7 @@ public class PlayFabController : MonoBehaviour
     
     private void OnCloudUpdateStats(ExecuteCloudScriptResult result) {
         // CloudScript returns arbitrary results, so you have to evaluate them one step and one parameter at a time
-        Debug.Log(PlayFab.PluginManager.GetPlugin<ISerializerPlugin>(PluginContract.PlayFab_Serializer));
+        PlayFab.PluginManager.GetPlugin<ISerializerPlugin>(PluginContract.PlayFab_Serializer);
         JsonObject jsonResult = (JsonObject)result.FunctionResult;
         object messageValue;
         jsonResult.TryGetValue("messageValue", out messageValue); // note how "messageValue" directly corresponds to the JSON values set in CloudScript
@@ -371,13 +373,25 @@ public class PlayFabController : MonoBehaviour
 
     #region Leaderboard---------------
     
+    [Header("Leaderboard")]
     public GameObject leaderBoardPanel;
     public GameObject listingPrefab;
     public Transform listingContainer;
     public void GetLeaderboarder()
     {
         var requestLeaderboard = new GetLeaderboardRequest
-            {StartPosition = 0, StatisticName = "PlayerHighScore", MaxResultsCount = 20};
+        {
+            StartPosition = 0,
+            StatisticName = "PlayerHighScore",
+            MaxResultsCount = 20,
+            ProfileConstraints = new PlayerProfileViewConstraints()
+            {
+                ShowStatistics = true,
+                ShowDisplayName = true,
+                ShowLastLogin = true,
+                ShowAvatarUrl = true
+            }
+        };
         PlayFabClientAPI.GetLeaderboard(requestLeaderboard, OnGetLeaderboard, OnErrorLeaderboard);
     }
 
@@ -391,7 +405,19 @@ public class PlayFabController : MonoBehaviour
             LeaderboardListing ll = tempListing.GetComponent<LeaderboardListing>();
             ll.playerNameText.text = player.DisplayName;
             ll.playerScoreText.text = player.StatValue.ToString();
-            Debug.Log(player.DisplayName + ": " + player.StatValue);
+            string avatarUrl = player.Profile.AvatarUrl;
+
+            ll.playerProfilePicture.sprite = placeHolderSprite;
+            
+            if (!string.IsNullOrEmpty(avatarUrl))
+            {
+                StartCoroutine(DownloadImage(avatarUrl, ll));
+            }
+            else
+            {
+                avatarUrl = "https://www.gravatar.com/avatar/" + player.PlayFabId.GetHashCode() + "?d=retro"; //Uses PlayFabID to generate Retro Image on Gravatar
+                StartCoroutine(DownloadImage(avatarUrl, ll));
+            }
         }
     }
 
@@ -457,7 +483,7 @@ public class PlayFabController : MonoBehaviour
     public void updateDisplayName()
     {
         var usernameRequest = new GetAccountInfoRequest();
-        PlayFabClientAPI.GetAccountInfo(usernameRequest,OnDisplaynameReceived,OnPlayFabError);
+        PlayFabClientAPI.GetAccountInfo(usernameRequest,OnDisplaynameReceived,DisplayPlayFabError);
     }
 
     void OnDisplaynameReceived(GetAccountInfoResult result)
@@ -467,10 +493,189 @@ public class PlayFabController : MonoBehaviour
         Debug.Log("Displayname is " + displayname);
     }
 
-    void OnPlayFabError(PlayFabError error)
+    void DisplayPlayFabError(PlayFabError error)
     {
         Debug.LogError(error.GenerateErrorReport());
     }
     
+    IEnumerator DownloadImage(string MediaUrl, FriendListing tempListing)
+    {   
+        UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl);
+        yield return request.SendWebRequest();
+        if (request.isNetworkError || request.isHttpError)
+        {
+            Debug.Log(request.error);
+            tempListing.playerProfilePicture.sprite = placeHolderSprite;
+        }
+        else
+        {
+            Texture2D profilePicture = ((DownloadHandlerTexture) request.downloadHandler).texture;
+            Sprite sprite = Sprite.Create(profilePicture, new Rect(0, 0, profilePicture.width, profilePicture.height), new Vector2(profilePicture.width / 2, profilePicture.height / 2));
+            tempListing.playerProfilePicture.sprite = sprite;
+        }
+    } 
+    
+    IEnumerator DownloadImage(string MediaUrl, LeaderboardListing tempListing)
+    {   
+        UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl);
+        yield return request.SendWebRequest();
+        if (request.isNetworkError || request.isHttpError)
+        {
+            Debug.Log(request.error);
+            tempListing.playerProfilePicture.sprite = placeHolderSprite;
+        }
+        else
+        {
+            Texture2D profilePicture = ((DownloadHandlerTexture) request.downloadHandler).texture;
+            Sprite sprite = Sprite.Create(profilePicture, new Rect(0, 0, profilePicture.width, profilePicture.height), new Vector2(profilePicture.width / 2, profilePicture.height / 2));
+            tempListing.playerProfilePicture.sprite = sprite;
+        }
+    } 
+    
     #endregion Tools---------------
+    
+    #region Friends---------------
+
+    
+    [Header("Friends")]
+    public GameObject friendPrefab;
+    [SerializeField] private Transform friendListingContainer = null;
+    [SerializeField] private Sprite placeHolderSprite = null;
+    [SerializeField] private GameObject friendPanel = null; 
+    [SerializeField] private List<FriendInfo> myFriends = null;
+
+    
+    enum FriendIdType
+    {
+        PlayFabId,
+        Username,
+        Email,
+        DisplayName
+    };
+    
+    void DisplayFriends(List<FriendInfo> friendsCache)
+    {
+        //Debug.Log("Friends");
+        foreach (FriendInfo f in friendsCache)
+        {
+            bool isFound = false;
+            if (myFriends != null)
+            {
+                foreach (FriendInfo g in myFriends)
+                {
+                    if (f.FriendPlayFabId == g.FriendPlayFabId)
+                    {
+                        isFound = true;
+                    }
+                }
+            }
+
+            if (!isFound)
+            {
+                GameObject listing = Instantiate(friendPrefab, friendListingContainer);
+                FriendListing tempListing = listing.GetComponent<FriendListing>();
+                tempListing.playerNameText.text = f.TitleDisplayName;
+                PlayerProfileModel friend = f.Profile;
+                tempListing.playerScoreText.text = "Last online: " + friend.LastLogin.Value;
+                String avatarUrl = friend.AvatarUrl;
+
+                if (!string.IsNullOrEmpty(avatarUrl))
+                {
+                    StartCoroutine(DownloadImage(avatarUrl, tempListing));
+                }
+                else
+                {
+                    avatarUrl = "https://www.gravatar.com/avatar/" + f.FriendPlayFabId.GetHashCode() + "?d=retro"; //Uses PlayFabID to generate Retro Image on Gravatar
+                    StartCoroutine(DownloadImage(avatarUrl, tempListing));
+                }
+            }
+        }
+
+        myFriends = friendsCache;
+    }
+
+    IEnumerator WaitForFriend()
+    {
+        yield return new WaitForSeconds(2);
+        GetFriends();
+    }
+
+    public void RunWaitFunction()
+    {
+        StartCoroutine(WaitForFriend());
+    }
+
+    private List<FriendInfo> _friends = null;
+
+    public void GetFriends()
+    {
+        PlayFabClientAPI.GetFriendsList(new GetFriendsListRequest
+        {
+            IncludeSteamFriends = false,
+            IncludeFacebookFriends = false,
+            ProfileConstraints = new PlayerProfileViewConstraints()
+            {
+                ShowDisplayName = true,
+                ShowLastLogin = true,
+                ShowAvatarUrl = true
+            }
+        }, result =>
+        {
+            _friends = result.Friends;
+            DisplayFriends(_friends); //triggers your UI
+        }, DisplayPlayFabError);
+    }
+
+    void AddFriend(FriendIdType idType, string friendId)
+    {
+        var request = new AddFriendRequest();
+        switch (idType)
+        {
+            case FriendIdType.PlayFabId:
+                request.FriendPlayFabId = friendId;
+                break;
+            case FriendIdType.Username:
+                request.FriendUsername = friendId;
+                break;
+            case FriendIdType.Email:
+                request.FriendEmail = friendId;
+                break;
+            case FriendIdType.DisplayName:
+                request.FriendTitleDisplayName = friendId;
+                break;
+        }
+        PlayFabClientAPI.AddFriend(request, result =>
+        {
+            Debug.Log("Friend added successfully!");
+        }, DisplayPlayFabError);
+    }
+    
+    private string friendSearch;
+
+    public void InputFriendID(string idIn)
+    {
+        friendSearch = idIn;
+    }
+
+    public void SubmitFriendRequest()
+    {
+        AddFriend(FriendIdType.PlayFabId, friendSearch);
+    }
+
+    public void OpenCloseFriends()
+    {
+        friendPanel.SetActive(!friendPanel.activeInHierarchy);
+        for (int i = friendListingContainer.childCount - 1; i >= 0; i--)
+        {
+            Destroy(friendListingContainer.GetChild(i).gameObject);
+        }
+
+        if (myFriends != null)
+        {
+            myFriends.Clear();
+        }
+    }
+
+    
+    #endregion Friends---------------
 }

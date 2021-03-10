@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LeaderboardListing : MonoBehaviour
+public class FriendListing : MonoBehaviour
 {
     public TMP_Text playerNameText;
     public TMP_Text playerScoreText;
